@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 90px;
+    background-color: #7bd64b;
+}
+
+nav{
+    height: 50px;
+    width: 300px;
+    background-color: #39803f;
+    float: right;
+    margin: 10px 30px;
+    display: flex;
+    align-items: center;
+}
+
+main{
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+li{
+    list-style: none;
+    margin: 5px;
+    float: left;
+    width: 70px;
+}
+
+aside{
+    background-color: #4e4f4f;
+    height: 500px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    float: left;
+}
+
+.artAside{
+    background-color: white;
+    border-radius: 5px;
+    width: 90%;
+    height: 30px;
+    margin: 40px auto;
+    text-align: center;
+
+}
+
+.clearfix{
+    clear: both;
+}
+
+section{
+    float: left;
+    padding: 0 30px;
+    width: 78%;
+}
+
+footer{
+    margin-top: 30px;
+    height: 90px;
+    background-color: #38803e;
+}
+
+.bigArticle{
+    background-color: #ebca62;
+    border-radius: 5px;
+    padding: 10px;
+    width: 500px;
+    float: left;
+    margin: 30px 80px;;
+    height: 150px;
+}
+
+.bigArticle h2{
+    background-color: white;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+.bigArticle p{
+    background-color: #f1a039;
+    margin: 20px 0;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.articleOrange{
+    background-color: #e59d59;
+}
+
+.articleRed{
+    background-color: #da615c;
+}
+
+.articlePurple{
+    background-color: #b06fd3;
+}
