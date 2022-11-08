@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: black;
+  color: #fff;
+}
+
+header {
+  background-color: blue;
+  height: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+main {
+  background-color: aquamarine;
+  height: 70vw;
+}
+footer {
+  
+  text-align: center;
+}
+.frasePiedePagina {
+  font-size: 3vw;
+  background-color: brown;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.miFirma {
+  font-size: 3vw;
+}
+.logoKodemia {
+  width: 4vw;
+  height: 4vw;
+  margin: 0 1vw;
+  border-radius: 50%;
+}
+nav {
+  margin-top: 2vw;
+  margin-left: 1vw;
+  border-radius: 2vw;
+
+  background-color: #aaa;
+}
+.miMenu {
+  width: 60vw;
+  height: 6vw;
+  font-size: 2vw;
+
+  color: green;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+}
+li {
+  margin: 1vw;
+}
+li:hover {
+  padding: 1vw;
+  background-color: cadetblue;
+  font-size: 3vw;
+  color: brown;
+  font-style: italic;
+  border-radius: 2vw;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  width: 20vw;
+  height: 6vw;
+  margin: 2vw 2vw 0vw 1vw;
+  background-color: black;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  font-size: 2.5vw;
+  cursor: pointer;
+  border-radius: 2vw;
+}
+.mainTitle {
+  text-align: center;
+  font-size: 6vw;
+  color: red;
+}
+.mainArticle {
+  border: 1px solid black;
+  background-color: #7ca6af;
+  width: 80%;
+  height: 20vw;
+  margin-left: 10%;
+  margin-top: 2%;
+  border-radius: 2vw;
+  font-size: 2vw;
+}
+.mainArticle h2{
+  color: black;
+  margin: 1vw;
+  
+}
+.mainComentario {
+  border: 1px solid black;
+  border-radius: 2vw;
+  width: 30%;
+  margin-left: 68%;
+  margin-top: 2%;
+  text-align: center;
+  color: brown;
+}
+.imgCard {
+  width: 25vw;
+  border-radius: 2vw;
+}
+.imgCard:hover {
+  width: 50vw;
+  position: absolute;
+  margin-top: -15vw;
+}
+.seccion__photos {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer__article{
+  border: 1px solid black;
+  width: 25%;
+  font-size: 2vw;
+}
+.footer__article p{
+  margin-top: 3%;
+  color: #666;
+  text-align: justify;
+}
+.footer__seccion{
+  height: 25vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
